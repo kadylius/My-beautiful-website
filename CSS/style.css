@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Times new roman, sans-serif;
+        }
+        #container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        #header {
+            background-color: red;
+            color: yellow;
+            padding: 10px;
+            text-align: center;
+        }
+        #nav {
+            float: left;
+            width: 20%;
+            background-color: #green;
+            padding: 10px;
+        }
+        #nav a {
+            text-decoration: none;
+            color: green;
+        }
+        #content {
+            float: left;
+            width: 80%;
+            padding: 10px;
+        }
+        #footer {
+            background-color: gray;
+            color: white;
+            text-align: center;
+            clear: both;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Welcome to My Website</h1>
+        </div>
+        <div id="nav">
+            <a href="#">Home</a><br>
+            <a href="#">About</a><br>
+            <a href="#">Contact</a><br>
+        </div>
+        <div id="content">
+            <h2>About Me</h2>
+            <p>This is a simple webpage created to practice HTML and CSS.</p>
+        </div>
+        <div id="footer">
+            Copyright Â© 2024
+        </div>
+    </div>
+</body>
+</html>
