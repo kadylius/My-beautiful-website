@@ -3,13 +3,11 @@
 <head>
     <style>
         body {
-            font-family: Times new roman;
-            background-color: #red;
+            font-family: Times new roman, sans-serif;
         }
         #container {
             width: 80%;
             margin: 0 auto;
-            background-color: #eee;
         }
         #header {
             background-color: red;
@@ -19,21 +17,14 @@
         }
         #nav {
             float: left;
-            width: 180%;
-            background-color: #eee;
+            width: 20%;
+            background-color: #green;
             padding: 10px;
         }
         #nav a {
             text-decoration: none;
             color: green;
-    
         }
-
-        #main {
-            width: 600px;
-            float: right;
-
-        }    
         #content {
             float: left;
             width: 80%;
