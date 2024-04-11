@@ -1,0 +1,93 @@
+
+        body {
+            font-family: Times new roman;
+            background-color: red;
+        }
+        #container {
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #eee;
+        }
+        #header {
+            background-color: red;
+            color: yellow;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #div {
+            height: 200px;
+            width: 200px;
+        }
+        
+        #info {
+            background-color: blue;
+        }
+
+        #nav {
+            float: left;
+            width: 180%;
+            background-color: #eee;
+            padding: 10px;
+        }
+        #nav a {
+            text-decoration: none;
+            color: green;
+    
+        }
+
+        #main {
+            width: 600px;
+            float: right;
+
+        }    
+
+        #content {
+            float: left;
+            width: 80%;
+            padding: 10px;
+        }
+
+        row-container {
+            display: flex;
+            justify-content: space-between; /* Adjusts space between images */
+            flex-wrap: wrap; /* Allows items to wrap to next line on small screens */
+            margin-bottom: 20px; /* Space between rows */
+        }
+        
+        .row2 {
+            flex-basis: calc(50% - 10px); /* Adjust width of each .row2, accounting for margin */
+            text-align: center; /* Centers the text under the image */
+            margin-bottom: 20px; /* Space between items when wrapped */
+        }
+        
+        .row2 img {
+            max-width: 100%;
+            height: auto; /* Makes images responsive */
+            display: block; /* Removes extra space below images */
+            margin-bottom: 10px; /* Space between image and text */
+        }
+        
+        @media (max-width: 768px) {
+            .row2 {
+                flex-basis: 100%; /* Each .row2 takes full width on small screens */
+            }
+        }
+        
+        #footer {
+            background-color: gray;
+            color: white;
+            text-align: center;
+            clear: both;
+            padding: 10px;
+            Blue {
+                color: blue;
+               
+               }
+               
+               .Red {
+                   color: red;
+               }
+        }
+    
